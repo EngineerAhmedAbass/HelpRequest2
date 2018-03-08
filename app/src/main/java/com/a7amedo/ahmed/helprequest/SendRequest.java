@@ -75,7 +75,7 @@ public class SendRequest extends AppCompatActivity {
                         } else {
                             alertDialog = new AlertDialog.Builder(context).create();
                             alertDialog.setTitle("Status");
-                            alertDialog.setMessage("Null");
+                            alertDialog.setMessage("Null error");
                             alertDialog.show();
                         }
                     }
