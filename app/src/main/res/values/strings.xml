@@ -10,5 +10,5 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
-
+<string name="google_maps_key">Hello</string>
 </resources>
