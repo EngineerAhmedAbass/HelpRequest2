@@ -281,10 +281,10 @@ public class SendRequest extends AppCompatActivity {
             if(isLocationServiceEnabled()){
                 if(isNetworkAvailable()){
                     Geocoder geocoder = new Geocoder(getApplicationContext());
-                    List<Address> addresses = geocoder.getFromLocation(lat,lont,1);
-                    String str = addresses.get(0).getLocality()+",";
-                    str+= addresses.get(0).getCountryName();
-                    alertDialog.setMessage(lat+" "+lont+"  "+str);
+                    //List<Address> addresses = geocoder.getFromLocation(lat,lont,1);
+                    //String str = addresses.get(0).getLocality()+",";
+                    //str+= addresses.get(0).getCountryName();
+                    alertDialog.setMessage(lat+" "+lont+"  ");
                     alertDialog.show();
                 }else{
                     Toast.makeText(SendRequest.this, "No Internet.", Toast.LENGTH_SHORT).show();
